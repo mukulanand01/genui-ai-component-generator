@@ -36,14 +36,14 @@ GenUI turns a plain-English description into ready-to-use frontend code. It call
 
 ```
 ┌──────────────┐      Prompt +      ┌──────────────────┐
-│    Browser    │ ─────────────────► │   Google Gemini   │
-│  (React+Vite) │                    │        API         │
-│               │ ◄───────────────── │                    │
-└──────┬───────┘   Generated code    └──────────────────┘
+│    Browser   │ ─────────────────► │   Google Gemini  │
+│  (React+Vite)│                    │        API       │
+│              │ ◄───────────────── │                  │
+└──────┬───────┘   Generated code   └──────────────────┘
        │
        ▼
 ┌──────────────┐
-│ Monaco Editor │  →  Live Preview (iframe)  →  Copy / Download
+│ Monaco Editor│  →  Live Preview (iframe)  →  Copy / Download
 └──────────────┘
 ```
 
